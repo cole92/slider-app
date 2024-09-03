@@ -1,0 +1,325 @@
+body {
+	position: relative;
+   /*font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif, cursive;*/
+}
+h1, h2, h3, h4, h5, h6,nav li a,#login,#nasID {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+#portofolio a,#portofolio2 a {
+    color: #00aeef;
+    text-decoration: none;
+}
+#appName
+{
+	color:#015891 !important;
+}
+.icon-background1{
+	color:#00aeef;
+}
+.checkBackground
+{
+	color:#FFF;
+}
+.colorButton
+{
+	background-color:#00aeef;
+	color:#FFF;
+	font-weight: bolder;
+}
+.button_message
+{
+	background-color:#00aeef;
+	color:#FFF;
+	font-weight: bolder;
+}
+.serviceBox
+{
+	height: 250px;
+    padding: 20px;
+}
+#us
+{
+	padding: 30px 0px;
+	margin: auto;
+}
+.boxUs
+{
+	margin: auto;
+	width: 400px;
+}
+.btn-info {
+    background-color: #00aeef !important;
+    border-color: #00aeef !important;
+}
+.carousel-indicators {
+	width: 75px;
+	margin-left: -30%;
+	right: -10px;
+	left: inherit;
+	bottom: auto;
+	padding: 0 0 0 0;
+	float: right;
+}
+.carousel-indicators>li {
+	border-radius: 0px;
+	border: 1px solid #00aeef;
+}
+
+.carousel-indicators .active{
+	background-color: #00aeef;
+}
+.img-rounded {
+    border-radius: 100% !important;
+}
+.navbar-nav>li>a:hover,.nav>li>a:hover
+{
+	background-color: #00aeef !important;
+	color:#FFF !important;
+}
+.active2
+{
+	background-color: #00aeef !important;
+}
+#name,#email2,#firma,#sajt{
+	margin-bottom: 38px;
+}
+#sendEmail
+{
+	margin: 10px 0px;
+}
+footer
+{
+	padding:10px 0px;
+	background-color: #47646f;
+}
+ footer a{
+    color: #00aeef !important;
+    text-decoration: none !important;
+}
+#services{
+	padding: 50px;
+}
+#appName
+{
+	font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#hTeam,.firHead,#pContact,#serviceP,#pModal,#pHeadline,#spanFooter
+{
+	font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #c5c5c5;
+}
+#employees
+{
+	
+	padding-top: 30px;
+}
+.white {
+	color: white !important;
+}
+.emply
+{
+	background-color:#47646f;
+}
+.box{
+	padding: 30px !important;
+    max-width: 350px;
+    margin: auto !important;
+    margin-bottom: 20px !important;
+    border-radius: 30px !important;
+    background-color: #333 !important;
+	color: #00aeef;
+}
+.box2{
+	padding: 30px !important;
+    max-width: 350px;
+    margin: auto !important;
+    margin-bottom: 20px !important;
+    border-radius: 30px !important;
+    color: #fff !important;
+	background-color: #333 !important;
+	
+}
+#orders {
+	min-height: 800px;
+}
+#shop {
+	min-height: 900px;
+}
+
+.Suma{
+	font-size: 25px;
+}
+.carousel-indicators {
+	width: 75px;
+	top: 100px;
+	margin-left: -30%;
+	right: -10px;
+	left: inherit;
+	bottom: auto;
+	padding: 0 0 0 0;
+	float: right;
+}
+.carousel-indicators>li {
+	border-radius: 0px;
+	border: 1px solid #00aeef;
+}
+#kurs
+{
+	padding: 50px 0px;
+}
+#portofolio,#portofolio2
+{
+    padding: 50px 0px;
+	background-color:#47646f;
+}
+.markers
+{
+	font-size: 20px;
+}
+
+#prijavaBtn
+{
+	padding: 20px;
+	color: #FFF;
+	font-weight: bolder;
+	background-color: #00aeef!important;
+}
+.btn-success {
+    color: #fff;
+    background-color: #00aeef !important;
+    border-color: #00aeef !important;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover
+{
+	background-color: #00aeef!important;
+	
+}
+.nav-tabs>li>a {
+    font-size: 20px !important;
+}
+tr:nth-child(odd) {
+    color: #00aeef !important;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover
+{
+	background-color: #00aeef!important;
+	color: #FFF !important;
+	font-size: 20px;
+}
+.h1Date
+{
+	margin-top: 10px !important;
+	margin-bottom: 0px !important;
+	color: #FFF;
+}
+.dateBox
+{
+	background-color: #00aeef!important;
+	color: #FFF;
+}
+.boxesDates
+{
+	margin-top: 20px !important;
+}
+.boxesDates3
+{
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+}
+#frames,.frame
+{
+	padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+#employees .fa-inverse {
+    color: #47646f !important;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #00aeef;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+#shop
+{
+	padding-top: 80px;
+	background-color:#f7f7f7;
+}
+#bets
+{
+	padding-top: 80px;
+	background-color:#f7f7f7;
+}
+.navbar-brand {
+    color:#fec503 !important;
+}
+.white {
+    color: #fff !important;
+}
+.naslovKurs {
+    margin-bottom:20px;
+}
+.naslovKurs h2 {
+    font-weight:bolder;
+}
+.boldText {
+    font-weight:bolder;
+}
+#formText {
+    margin-top:5px;
+}
+#usFormButton {
+    margin-top:30px;
+}
+.form-group {
+    padding:10px;
+}
+.kadarFirma {
+    margin-bottom: 40px;
+}
+.footerBlock {
+    padding-top: 5px;
+}
+#logout {
+    color:#FFF !important; padding-left:10px; padding-right:10px;
+}
+#orders,#products {
+    margin-top:15px;
+}
+.marginBottom15 {
+    margin-bottom:15px;
+}
+.floatRight {
+    float: right;
+}
+#navTag {
+    background-color:#333; border-bottom:#333 !important;
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-indicators {
+    	width: 75px;
+    	top: 0px !important;
+    	margin-left: -30%;
+    	right: -10px;
+    	left: inherit;
+    	bottom: auto;
+    	padding: 0 0 0 0;
+    	float: right;
+    }
+}
