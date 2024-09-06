@@ -6,4 +6,7 @@ export default class Person {
         this.age = age;
         this.eyeColor = eye;
     }
+    fullName() {
+        return `${this.firstName} ${this.lastName}`
+    };
 }
