@@ -12,4 +12,18 @@ const marko = new Person('Marko', 'Radosavljevic', 'Diplomirani inzenjer elektro
 fullName.innerHTML = marko.fullName();
 title.innerHTML = marko.education;
 
-let arrayOfCourses = []; 
+let arrayOfCourses = [];
+
+async function fetchData() {
+    const response = await fetch ('https://mocki.io/v1/9afbdb67-2e31-4f2b-a2fc-7d5c22ceaaf4');
+    
+    const data = await response.json();
+    data.data.forEach(item => {
+        const course = new Course();
+        course.setName(item.title);
+        course.setData(item.post);
+        course.setClassIcon(item.faclass);
+
+        arrayOfCourses.push(course)
+    });
+}
