@@ -1,0 +1,49 @@
+{
+    "data": [
+        {
+            "title": "HTML",
+            "post": "Hyper Text Markup Language će Vam pomoći da kreirate strukturu web strana Vašeg sajta ili web aplikacije.",
+            "faclass": "fa-html5"
+        },
+        {
+            "title": "CSS3",
+            "post": "Cascade Style Sheets će Vam pomoći da Vaše web strane poprime izgled koji zadovoljava ideje dizajnera.",
+            "faclass": "fa-css3"
+        },
+        {
+            "title": "BOOTSTRAP",
+            "post": "Bootsrap će Vam pomoći da zadovoljite kriterijume Responsive Design-a, da se Vaše strane budu kompatibilne sa različitim vrstama uređaja na kojima mogu biti pregledane.",
+            "faclass": "fa-mobile"
+        },
+        {
+            "title": "JAVASCRIPT",
+            "post": "JavaScript će Vam omogućiti da svoj web sajt pretvorite u web aplikaciju koja ima mogućnost upravljanja podacima.",
+            "faclass": "fa-js"
+        },
+        {
+            "title": "JQUERY",
+            "post": "Biblioteka jQuery omogućiće Vam dopadljive vizuelne efekte i olakšan način ostvarivanja funkcionalnosti JavaScript-a..",
+            "faclass": "fa-js"
+        },
+        {
+            "title": "AngularJS",
+            "post": "AngularJS pruža mogućnost razvijanja modularnih web aplikacija. Najaktuelnija web tehnologija!",
+            "faclass": "fa-angular"
+        },
+        {
+            "title": "JAVA",
+            "post": "Osnove objektno-orijentisanog programiranja kroz programski jezik JAVA su Vaš prvi korak ka razvijanju sofisticiranih programskih rešenja.",
+            "faclass": "fa-java"
+        },
+        {
+            "title": "PHP",
+            "post": "PHP: Hypertext Preprocessor je kompjuterski jezik, prvobitno konstruisan za izradu dinamičkih web strana. Danas se prevashodno koristi za programiranje servera, pisanje komandi operativnom sistemu/programu.",
+            "faclass": "fa-php"
+        },
+        {
+            "title": "Baze podataka",
+            "post": "Baza (banka) podataka je kolekcija podataka organizovanih za brzo pretraživanje i pristup, koja zajedno sa sistemom za administraciju, organizovanje i memorisanje tih podataka, čini sistem baze podataka.",
+            "faclass": "fa-database"
+        }
+    ]
+}

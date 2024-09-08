@@ -1,11 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slider App</title>
-</head>
-<body>
-    
-</body>
+<html>
+	<head>
+		<title>Learning</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">		
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css"> 		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="https://code.jquery.com/ui/1.14.0/jquery-ui.min.js" integrity="sha256-Fb0zP4jE3JHqu+IBB9YktLcSjI1Zc6J2b6gTjB0LpoM=" crossorigin="anonymous"></script>  
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>	
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" type="text/css" href="style.css">	
+    </head>
+    <body>	
+		<section id="kurs">
+			<div class="container-fluid">
+				<div class="container">
+					<div class="col-sm-12 text-center naslovKurs">
+						<h2>TEME KURSEVA</h2>
+						<p id="serviceP"><i>Šta možete naučiti?</i></p>
+					</div>
+					<div id="actionsCarousel" class="carousel slide" data-bs-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-bs-target="#actionsCarousel" data-bs-slide-to="0" class="active"></li>
+							<li data-bs-target="#actionsCarousel" data-bs-slide-to="1"></li>
+							<li data-bs-target="#actionsCarousel" data-bs-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner" role="listbox">
+							<div class="item active" id="slides1"></div>
+							<div class="item" id="slides2"></div>
+							<div class="item" id="slides3"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>		
+		<section id="employees" class="white">
+            <div class="container-fluid emply">
+                <div class="container text-center">
+                    <div class="row">
+                        <br><h2 id="nasID" class="boldText">AUTOR</h2>
+                        <p id="hTeam"><i>Bez njega ništa ne bi bilo isto.</i></p><br><br>
+                        <div class="col-sm-12 naslovKurs">
+                            <div class="team-member">
+                                <img src="slika.png" class="img-responsive img-rounded center-block" alt="marko" width="200" height="100">
+                                <h4 id="fullName"></h4>
+                                <p class="job" id="title"></p>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+			</div>			
+		</section>
+        <script src="main.js" type="module"></script>
+	</body>
 </html>
